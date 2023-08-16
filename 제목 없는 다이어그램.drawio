@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T06:35:50.242Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="2u26WnJmpi0k0VFLO8pw" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T14:07:08.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6FWzwZxAmqV6eoj59JkM" version="21.6.8" type="github">
   <diagram name="페이지-1" id="_mJsWbttWPfQ1Atq35So">
     <mxGraphModel dx="989" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,9 +27,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MUbadtuSSWlXPX1V-RnH-13" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
-          <mxGeometry x="490" y="260" width="100" height="60" as="geometry" />
+          <mxGeometry x="490" y="260" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MUbadtuSSWlXPX1V-RnH-14" value="&lt;font color=&quot;#000000&quot;&gt;Name&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-13" vertex="1">
+        <mxCell id="MUbadtuSSWlXPX1V-RnH-14" value="&lt;font color=&quot;#000000&quot;&gt;RealTime DataBase&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-13" vertex="1">
           <mxGeometry width="32.4" height="45" relative="1" as="geometry">
             <mxPoint x="5" y="7" as="offset" />
           </mxGeometry>
@@ -37,15 +37,15 @@
         <mxCell id="MUbadtuSSWlXPX1V-RnH-15" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="350" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MUbadtuSSWlXPX1V-RnH-16" value="&lt;font color=&quot;#000000&quot;&gt;Name&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-15" vertex="1">
+        <mxCell id="MUbadtuSSWlXPX1V-RnH-16" value="&lt;font color=&quot;#000000&quot;&gt;Storage&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-15" vertex="1">
           <mxGeometry width="32.4" height="45" relative="1" as="geometry">
             <mxPoint x="5" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MUbadtuSSWlXPX1V-RnH-17" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
-          <mxGeometry x="490" y="170" width="100" height="60" as="geometry" />
+          <mxGeometry x="490" y="170" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MUbadtuSSWlXPX1V-RnH-18" value="&lt;font color=&quot;#000000&quot;&gt;Name&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-17" vertex="1">
+        <mxCell id="MUbadtuSSWlXPX1V-RnH-18" value="&lt;font color=&quot;#000000&quot;&gt;Authentication&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-17" vertex="1">
           <mxGeometry width="32.4" height="45" relative="1" as="geometry">
             <mxPoint x="5" y="7" as="offset" />
           </mxGeometry>
@@ -53,7 +53,7 @@
         <mxCell id="MUbadtuSSWlXPX1V-RnH-19" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="1" vertex="1">
           <mxGeometry x="490" y="440" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MUbadtuSSWlXPX1V-RnH-20" value="&lt;font color=&quot;#000000&quot;&gt;Name&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-19" vertex="1">
+        <mxCell id="MUbadtuSSWlXPX1V-RnH-20" value="&lt;font color=&quot;#000000&quot;&gt;Function&lt;/font&gt;&lt;br&gt;Firebase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="MUbadtuSSWlXPX1V-RnH-19" vertex="1">
           <mxGeometry width="32.4" height="45" relative="1" as="geometry">
             <mxPoint x="5" y="7" as="offset" />
           </mxGeometry>
@@ -93,6 +93,24 @@
               <mxPoint x="380" y="381" />
               <mxPoint x="430" y="381" />
               <mxPoint x="430" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0aiFFdgzDsPQwecSxqSb-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="490" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0aiFFdgzDsPQwecSxqSb-2" value="&lt;font color=&quot;#000000&quot;&gt;FireStore Database&lt;/font&gt;" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="0aiFFdgzDsPQwecSxqSb-1">
+          <mxGeometry width="32.4" height="45" relative="1" as="geometry">
+            <mxPoint x="5" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0aiFFdgzDsPQwecSxqSb-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="MUbadtuSSWlXPX1V-RnH-4" target="0aiFFdgzDsPQwecSxqSb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="510" as="sourcePoint" />
+            <mxPoint x="540" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="380" />
+              <mxPoint x="430" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
