@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T14:07:08.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6FWzwZxAmqV6eoj59JkM" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T14:09:22.406Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="4UYwPjkMNgv2m5Hnaap2" version="21.6.8" type="github">
   <diagram name="페이지-1" id="_mJsWbttWPfQ1Atq35So">
     <mxGraphModel dx="989" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,7 +99,7 @@
         <mxCell id="0aiFFdgzDsPQwecSxqSb-1" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="1">
           <mxGeometry x="490" y="530" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0aiFFdgzDsPQwecSxqSb-2" value="&lt;font color=&quot;#000000&quot;&gt;FireStore Database&lt;/font&gt;" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="0aiFFdgzDsPQwecSxqSb-1">
+        <mxCell id="0aiFFdgzDsPQwecSxqSb-2" value="&lt;font color=&quot;#000000&quot;&gt;FireStore Database&lt;/font&gt;&lt;br&gt;FireBase" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.firebase;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="0aiFFdgzDsPQwecSxqSb-1">
           <mxGeometry width="32.4" height="45" relative="1" as="geometry">
             <mxPoint x="5" y="7" as="offset" />
           </mxGeometry>
