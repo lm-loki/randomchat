@@ -10,13 +10,32 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var isLogged: Bool = false // 우선 테스트를 위해
+     /* 코드 */
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        // This delegate does not imply the connecting scene or sessi	on are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil) // Main.storyboard 가져오기
+        
+        if isLogged == false {
+            // 로그인 안된 상태
+            guard let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginView") as? LoginViewController else { return }
+            window?.rootViewController = loginVC
+        } else {
+            // 로그인 된 상태
+            guard let mainVC = storyboard.instantiateViewController(withIdentifier: "MainView") as? ViewController else { return }
+            window?.rootViewController = mainVC
+        }
+[출처] Swift : 첫화면(Root)을 어떤걸 보여줄까 ( Login 로직 )|작성자 pvelo
+
+
+
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
