@@ -25,6 +25,7 @@
 		E2A0DD492A951268008C8327 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD482A951268008C8327 /* SettingController.swift */; };
 		E2A0DD4D2A95127E008C8327 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD4C2A95127E008C8327 /* SignUp.storyboard */; };
 		E2A0DD4F2A9514CE008C8327 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD4E2A9514CE008C8327 /* SignUpController.swift */; };
+		E2A0DD5C2A952382008C8327 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD5B2A952382008C8327 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		E2A0DD482A951268008C8327 /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		E2A0DD4C2A95127E008C8327 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
 		E2A0DD4E2A9514CE008C8327 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		E2A0DD5B2A952382008C8327 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E2A0DD5D2A952399008C8327 /* Empty.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Empty.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				E2A0DD5A2A951E8C008C8327 /* Assets */,
-				E2A0DD592A951E77008C8327 /* Utils */,
+				E2A0DD592A951E77008C8327 /* Common */,
 				E2A0DD582A951E10008C8327 /* Main */,
 				E2A0DD2F2A950B05008C8327 /* SingUp */,
 				E2A0DD2E2A950AB3008C8327 /* Setting */,
@@ -209,16 +212,18 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E2A0DD592A951E77008C8327 /* Utils */ = {
+		E2A0DD592A951E77008C8327 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E2A0DD5B2A952382008C8327 /* Utils.swift */,
 			);
-			path = Utils;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		E2A0DD5A2A951E8C008C8327 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				E2A0DD5D2A952399008C8327 /* Empty.md */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 				E2A0DD4F2A9514CE008C8327 /* SignUpController.swift in Sources */,
 				E2A0DD352A95119C008C8327 /* FriendListController.swift in Sources */,
 				E2A0DD432A951241008C8327 /* ProfileController.swift in Sources */,
+				E2A0DD5C2A952382008C8327 /* Utils.swift in Sources */,
 				E2A0DD162A95068E008C8327 /* AppDelegate.swift in Sources */,
 				E2A0DD182A95068E008C8327 /* SceneDelegate.swift in Sources */,
 				E2A0DD492A951268008C8327 /* SettingController.swift in Sources */,
