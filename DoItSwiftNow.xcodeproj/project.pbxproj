@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				E2A0DD5A2A951E8C008C8327 /* Assets */,
-				E2A0DD592A951E77008C8327 /* Common */,
+				E2A0DD592A951E77008C8327 /* Utils */,
 				E2A0DD582A951E10008C8327 /* Main */,
 				E2A0DD2F2A950B05008C8327 /* SingUp */,
 				E2A0DD2E2A950AB3008C8327 /* Setting */,
@@ -209,11 +209,11 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		E2A0DD592A951E77008C8327 /* Common */ = {
+		E2A0DD592A951E77008C8327 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Common;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		E2A0DD5A2A951E8C008C8327 /* Assets */ = {
