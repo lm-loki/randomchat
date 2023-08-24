@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25A3D0E2A964EF800A70748 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = E25A3D0D2A964EF800A70748 /* MessageKit */; };
 		E2A0DD162A95068E008C8327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD152A95068E008C8327 /* AppDelegate.swift */; };
 		E2A0DD182A95068E008C8327 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD172A95068E008C8327 /* SceneDelegate.swift */; };
 		E2A0DD1A2A95068E008C8327 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD192A95068E008C8327 /* ViewController.swift */; };
@@ -23,9 +24,9 @@
 		E2A0DD452A95124D008C8327 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD442A95124D008C8327 /* Profile.storyboard */; };
 		E2A0DD472A95125E008C8327 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD462A95125E008C8327 /* Setting.storyboard */; };
 		E2A0DD492A951268008C8327 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD482A951268008C8327 /* SettingController.swift */; };
-		E2A0DD4D2A95127E008C8327 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD4C2A95127E008C8327 /* SignUp.storyboard */; };
 		E2A0DD4F2A9514CE008C8327 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD4E2A9514CE008C8327 /* SignUpController.swift */; };
 		E2A0DD5C2A952382008C8327 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD5B2A952382008C8327 /* Utils.swift */; };
+		E2E938C72A95EE640009F30B /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD4C2A95127E008C8327 /* SignUp.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25A3D0E2A964EF800A70748 /* MessageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +88,7 @@
 				E2A0DD5A2A951E8C008C8327 /* Assets */,
 				E2A0DD592A951E77008C8327 /* Common */,
 				E2A0DD582A951E10008C8327 /* Main */,
-				E2A0DD2F2A950B05008C8327 /* SingUp */,
+				E2A0DD2F2A950B05008C8327 /* SignUp */,
 				E2A0DD2E2A950AB3008C8327 /* Setting */,
 				E2A0DD2D2A950AA6008C8327 /* Profile */,
 				E2A0DD2B2A950A8B008C8327 /* ChatList */,
@@ -151,14 +153,14 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
-		E2A0DD2F2A950B05008C8327 /* SingUp */ = {
+		E2A0DD2F2A950B05008C8327 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
 				E2A0DD512A951AE0008C8327 /* Model */,
 				E2A0DD4C2A95127E008C8327 /* SignUp.storyboard */,
 				E2A0DD4E2A9514CE008C8327 /* SignUpController.swift */,
 			);
-			path = SingUp;
+			path = SignUp;
 			sourceTree = "<group>";
 		};
 		E2A0DD512A951AE0008C8327 /* Model */ = {
@@ -244,6 +246,9 @@
 			dependencies = (
 			);
 			name = DoItSwiftNow;
+			packageProductDependencies = (
+				E25A3D0D2A964EF800A70748 /* MessageKit */,
+			);
 			productName = DoItSwiftNow;
 			productReference = E2A0DD122A95068E008C8327 /* DoItSwiftNow.app */;
 			productType = "com.apple.product-type.application";
@@ -272,6 +277,9 @@
 				Base,
 			);
 			mainGroup = E2A0DD092A95068E008C8327;
+			packageReferences = (
+				E25A3D0C2A964EF800A70748 /* XCRemoteSwiftPackageReference "MessageKit" */,
+			);
 			productRefGroup = E2A0DD132A95068E008C8327 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,7 +296,7 @@
 			files = (
 				E2A0DD3B2A9511D3008C8327 /* ChatList.storyboard in Resources */,
 				E2A0DD312A95114A008C8327 /* Login.storyboard in Resources */,
-				E2A0DD4D2A95127E008C8327 /* SignUp.storyboard in Resources */,
+				E2E938C72A95EE640009F30B /* SignUp.storyboard in Resources */,
 				E2A0DD222A95068F008C8327 /* LaunchScreen.storyboard in Resources */,
 				E2A0DD1F2A95068F008C8327 /* Assets.xcassets in Resources */,
 				E2A0DD1D2A95068E008C8327 /* Main.storyboard in Resources */,
@@ -530,6 +538,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E25A3D0C2A964EF800A70748 /* XCRemoteSwiftPackageReference "MessageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MessageKit/MessageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E25A3D0D2A964EF800A70748 /* MessageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E25A3D0C2A964EF800A70748 /* XCRemoteSwiftPackageReference "MessageKit" */;
+			productName = MessageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E2A0DD0A2A95068E008C8327 /* Project object */;
 }
