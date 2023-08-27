@@ -40,12 +40,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="login"/>
+                                <connections>
+                                    <action selector="loginBtnMove:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="3EK-oJ-FU3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oIB-fI-nF2">
                                 <rect key="frame" x="-1" y="765" width="148" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="forget Password"/>
+                                <connections>
+                                    <action selector="forgetBtnMove:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="8lo-b7-y3E"/>
+                                    <segue destination="HkP-K6-nIx" kind="show" id="V4U-Fe-Hfi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bn-Fp-vb7">
                                 <rect key="frame" x="297" y="765" width="80" height="35"/>
@@ -97,6 +104,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1066.4122137404579" y="-2.1126760563380285"/>
+        </scene>
+        <!--View2Controller-->
+        <scene sceneID="YvR-yR-AiX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="View2Controller" storyboardName="TabTest" referencedIdentifier="View2Controller" id="HkP-K6-nIx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="eUT-A3-YkG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p9D-iV-urK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1880" y="-49"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="F4B-RA-YYO">

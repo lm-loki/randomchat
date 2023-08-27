@@ -16,7 +16,6 @@
 		E2A0DD222A95068F008C8327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD202A95068F008C8327 /* LaunchScreen.storyboard */; };
 		E2A0DD312A95114A008C8327 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD302A95114A008C8327 /* Login.storyboard */; };
 		E2A0DD332A95115A008C8327 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD322A95115A008C8327 /* LoginController.swift */; };
-		E2A0DD352A95119C008C8327 /* FriendListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD342A95119C008C8327 /* FriendListController.swift */; };
 		E2A0DD372A9511B4008C8327 /* FriendList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD362A9511B4008C8327 /* FriendList.storyboard */; };
 		E2A0DD3B2A9511D3008C8327 /* ChatList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD3A2A9511D3008C8327 /* ChatList.storyboard */; };
 		E2A0DD412A951232008C8327 /* ChatListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD402A951232008C8327 /* ChatListController.swift */; };
@@ -26,6 +25,10 @@
 		E2A0DD492A951268008C8327 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD482A951268008C8327 /* SettingController.swift */; };
 		E2A0DD4F2A9514CE008C8327 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD4E2A9514CE008C8327 /* SignUpController.swift */; };
 		E2A0DD5C2A952382008C8327 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A0DD5B2A952382008C8327 /* Utils.swift */; };
+		E2B7E93D2A9731AA000609E1 /* FriendListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7E93C2A9731AA000609E1 /* FriendListController.swift */; };
+		E2B7E9412A97352D000609E1 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7E9402A97352D000609E1 /* MainController.swift */; };
+		E2C31F462A97889B0072859B /* TabTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C31F452A97889B0072859B /* TabTest.storyboard */; };
+		E2C31F482A9788B50072859B /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C31F472A9788B50072859B /* View2Controller.swift */; };
 		E2E938C72A95EE640009F30B /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A0DD4C2A95127E008C8327 /* SignUp.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +43,6 @@
 		E2A0DD232A95068F008C8327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A0DD302A95114A008C8327 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		E2A0DD322A95115A008C8327 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
-		E2A0DD342A95119C008C8327 /* FriendListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListController.swift; sourceTree = "<group>"; };
 		E2A0DD362A9511B4008C8327 /* FriendList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FriendList.storyboard; sourceTree = "<group>"; };
 		E2A0DD3A2A9511D3008C8327 /* ChatList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatList.storyboard; sourceTree = "<group>"; };
 		E2A0DD402A951232008C8327 /* ChatListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListController.swift; sourceTree = "<group>"; };
@@ -52,6 +54,10 @@
 		E2A0DD4E2A9514CE008C8327 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		E2A0DD5B2A952382008C8327 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		E2A0DD5D2A952399008C8327 /* Empty.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Empty.md; sourceTree = "<group>"; };
+		E2B7E93C2A9731AA000609E1 /* FriendListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListController.swift; sourceTree = "<group>"; };
+		E2B7E9402A97352D000609E1 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		E2C31F452A97889B0072859B /* TabTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabTest.storyboard; sourceTree = "<group>"; };
+		E2C31F472A9788B50072859B /* View2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		E2A0DD142A95068E008C8327 /* DoItSwiftNow */ = {
 			isa = PBXGroup;
 			children = (
+				E2C31F442A9788810072859B /* TabTest */,
 				E2A0DD5A2A951E8C008C8327 /* Assets */,
 				E2A0DD592A951E77008C8327 /* Common */,
 				E2A0DD582A951E10008C8327 /* Main */,
@@ -117,8 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				E2A0DD552A951B19008C8327 /* Model */,
-				E2A0DD342A95119C008C8327 /* FriendListController.swift */,
 				E2A0DD362A9511B4008C8327 /* FriendList.storyboard */,
+				E2B7E93C2A9731AA000609E1 /* FriendListController.swift */,
 			);
 			path = FriendList;
 			sourceTree = "<group>";
@@ -210,6 +217,7 @@
 			children = (
 				E2A0DD192A95068E008C8327 /* ViewController.swift */,
 				E2A0DD1B2A95068E008C8327 /* Main.storyboard */,
+				E2B7E9402A97352D000609E1 /* MainController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -228,6 +236,15 @@
 				E2A0DD5D2A952399008C8327 /* Empty.md */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		E2C31F442A9788810072859B /* TabTest */ = {
+			isa = PBXGroup;
+			children = (
+				E2C31F452A97889B0072859B /* TabTest.storyboard */,
+				E2C31F472A9788B50072859B /* View2Controller.swift */,
+			);
+			path = TabTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +317,7 @@
 				E2A0DD222A95068F008C8327 /* LaunchScreen.storyboard in Resources */,
 				E2A0DD1F2A95068F008C8327 /* Assets.xcassets in Resources */,
 				E2A0DD1D2A95068E008C8327 /* Main.storyboard in Resources */,
+				E2C31F462A97889B0072859B /* TabTest.storyboard in Resources */,
 				E2A0DD452A95124D008C8327 /* Profile.storyboard in Resources */,
 				E2A0DD372A9511B4008C8327 /* FriendList.storyboard in Resources */,
 				E2A0DD472A95125E008C8327 /* Setting.storyboard in Resources */,
@@ -314,12 +332,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A0DD1A2A95068E008C8327 /* ViewController.swift in Sources */,
+				E2B7E93D2A9731AA000609E1 /* FriendListController.swift in Sources */,
 				E2A0DD412A951232008C8327 /* ChatListController.swift in Sources */,
 				E2A0DD4F2A9514CE008C8327 /* SignUpController.swift in Sources */,
-				E2A0DD352A95119C008C8327 /* FriendListController.swift in Sources */,
 				E2A0DD432A951241008C8327 /* ProfileController.swift in Sources */,
 				E2A0DD5C2A952382008C8327 /* Utils.swift in Sources */,
+				E2C31F482A9788B50072859B /* View2Controller.swift in Sources */,
 				E2A0DD162A95068E008C8327 /* AppDelegate.swift in Sources */,
+				E2B7E9412A97352D000609E1 /* MainController.swift in Sources */,
 				E2A0DD182A95068E008C8327 /* SceneDelegate.swift in Sources */,
 				E2A0DD492A951268008C8327 /* SettingController.swift in Sources */,
 				E2A0DD332A95115A008C8327 /* LoginController.swift in Sources */,

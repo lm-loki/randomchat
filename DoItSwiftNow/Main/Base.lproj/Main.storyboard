@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main Controller-->
         <scene sceneID="c4z-7h-mi8">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Fwf-ZI-ojb" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainControoler" automaticallyAdjustsScrollViewInsets="NO" id="Fwf-ZI-ojb" customClass="MainController" customModule="DoItSwiftNow" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Dst-2H-P8h">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -27,10 +27,10 @@
             </objects>
             <point key="canvasLocation" x="267.93893129770993" y="53.521126760563384"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--FriendList-->
         <scene sceneID="77z-GK-n6A">
             <objects>
-                <viewControllerPlaceholder id="5KM-xb-elg" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="FriendList" id="5KM-xb-elg" userLabel="FriendList" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="FHn-Lq-AeG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7zv-Tq-D5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
