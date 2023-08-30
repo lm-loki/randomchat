@@ -36,7 +36,15 @@
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="68I-pC-EJ6">
                                 <rect key="frame" x="40" y="389" width="61" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="A1u-Kz-5bi">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="32"/>
+                                        <segments>
+                                            <segment title="남"/>
+                                            <segment title="녀"/>
+                                        </segments>
+                                    </segmentedControl>
+                                </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="Fu4-EQ-zq3">
                                 <rect key="frame" x="99" y="498" width="194.66666666666663" height="275.33333333333326"/>
@@ -63,14 +71,6 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="A1u-Kz-5bi">
-                                <rect key="frame" x="76" y="411" width="61" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="남"/>
-                                    <segment title="녀"/>
-                                </segments>
-                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

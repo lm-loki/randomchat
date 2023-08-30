@@ -6,6 +6,7 @@
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -46,6 +47,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Sign up"/>
                                 <connections>
                                     <action selector="signUpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B1G-mZ-9eK"/>
+                                    <segue destination="wzF-KP-RJD" kind="show" id="N0e-l3-Bfy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdA-Wf-2hz">
@@ -173,7 +175,78 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="50Q-XD-bm3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="944.79999999999995" y="-38.423645320197046"/>
+            <point key="canvasLocation" x="38" y="775"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PHQ-IF-dNg">
+            <objects>
+                <viewController id="csS-o6-Ems" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pgg-nz-ft5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="802"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JGx-wb-hB1">
+                                <rect key="frame" x="0.0" y="56" width="375" height="746"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wTw-AB-ZmK">
+                                    <size key="itemSize" width="375" height="105"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <label key="backgroundView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gLY-UF-p9A">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="746"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6lW-uw-3qG">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="FRj-Pa-jwI">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="375" height="105"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YvU-qg-6Rm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YvU-qg-6Rm" firstAttribute="bottom" secondItem="JGx-wb-hB1" secondAttribute="bottom" id="5iY-gD-Bjn"/>
+                            <constraint firstItem="JGx-wb-hB1" firstAttribute="leading" secondItem="YvU-qg-6Rm" secondAttribute="leading" id="Lwt-G7-GiE"/>
+                            <constraint firstItem="JGx-wb-hB1" firstAttribute="top" secondItem="YvU-qg-6Rm" secondAttribute="top" id="Zzv-Yl-z3u"/>
+                            <constraint firstItem="YvU-qg-6Rm" firstAttribute="trailing" secondItem="JGx-wb-hB1" secondAttribute="trailing" id="aLd-RD-kjM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gG8-8O-2xI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wzL-O4-TTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2066.4000000000001" y="773.64532019704438"/>
+        </scene>
+        <!--SignUp-->
+        <scene sceneID="kQG-wL-6bB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wzF-KP-RJD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="SignUp" id="gO9-31-yh6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q92-Mm-met">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="csS-o6-Ems" kind="relationship" relationship="rootViewController" id="gWb-rJ-bjR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BM8-Da-kPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="773.64532019704438"/>
         </scene>
     </scenes>
     <resources>
