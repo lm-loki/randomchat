@@ -48,6 +48,7 @@
 		012FD75E2A9F184300183675 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 012FD75D2A9F184300183675 /* FirebaseStorage */; };
 		012FD7602A9F184300183675 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 012FD75F2A9F184300183675 /* FirebaseStorageCombine-Community */; };
 		012FD7662A9F1BFB00183675 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 012FD7652A9F1BFB00183675 /* GoogleService-Info.plist */; };
+		012FD7692AA0626500183675 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012FD7682AA0626500183675 /* SignUpViewController.swift */; };
 		01F2416C2A8DBEFE0049BDD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F2416B2A8DBEFE0049BDD4 /* SceneDelegate.swift */; };
 		01F241712A8DBEFE0049BDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F2416F2A8DBEFE0049BDD4 /* Main.storyboard */; };
 		01F241732A8DBEFF0049BDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F241722A8DBEFF0049BDD4 /* Assets.xcassets */; };
@@ -73,6 +74,7 @@
 		012FD7202A99D55F00183675 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		012FD7222A99D9F600183675 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
 		012FD7652A9F1BFB00183675 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		012FD7682AA0626500183675 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		01F241662A8DBEFE0049BDD4 /* randomChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = randomChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F2416B2A8DBEFE0049BDD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01F241702A8DBEFE0049BDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				01F241802A8DCE870049BDD4 /* loginViewController.swift */,
 				012FD6DB2A94D49700183675 /* ForgotPwViewController.swift */,
 				012FD6DD2A973E2C00183675 /* LoginInfo.swift */,
+				012FD7682AA0626500183675 /* SignUpViewController.swift */,
 				01F2416F2A8DBEFE0049BDD4 /* Main.storyboard */,
 			);
 			path = login;
@@ -338,6 +341,7 @@
 				01F2419F2A8F96180049BDD4 /* OptionViewController.swift in Sources */,
 				012FD7212A99D55F00183675 /* Mocks.swift in Sources */,
 				01F241812A8DCE870049BDD4 /* loginViewController.swift in Sources */,
+				012FD7692AA0626500183675 /* SignUpViewController.swift in Sources */,
 				012FD6DE2A973E2C00183675 /* LoginInfo.swift in Sources */,
 				01F2418B2A8F40340049BDD4 /* Chat.swift in Sources */,
 				012FD6DA2A94948F00183675 /* ChatListViewController.swift in Sources */,
