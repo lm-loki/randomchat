@@ -59,6 +59,6 @@ class loginViewController: UIViewController {
             navigationController?.setViewControllers([ChatListViewController()], animated: true)
         }
     
-
+ 
 
 }
